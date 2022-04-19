@@ -1,5 +1,5 @@
 import React from 'react'
-import Expenses from './components/Expenses'
+import Expenses from '../src/components/Expenses/Expenses'
 
 function App () {
   const expenses = [
@@ -40,6 +40,7 @@ function App () {
         <Expenses items={expenses}></Expenses>
     </div>
   )
+  
 }
 
 export default App
